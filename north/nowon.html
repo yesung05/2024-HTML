@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--흰색 글씨 수정-->
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서울의 관광지</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/foot.css">
+        <link rel="stylesheet" href="/css/south.css">
+        <link rel="stylesheet" href="/css/north.css">
+        <link rel="stylesheet" href="/css/summary.css">
+</head>
+<body>
+    <nav class="navbar">
+        <header class="maintext">
+            <a href="/main.html"><h1 class="maintext" style="color: white;">서울의 관광지</h1></a>
+        </header>
+        <div class="searchbar">
+            <form id="searchForm" onsubmit="return navigateToFile()">
+                <input class="searchtext" type="search" id="searchInput" placeholder=" 구를 입력하세요 ex.구로구" required>
+                <button class="gobuttom" type="submit">
+                    <a href=""><img class="searchimg" src="/image/search.png" alt="검색"></a>
+                </button>
+            </form>
+        </div>
+        <script src="scripts.js"></script>
+        </form>
+    </nav>
+    
+    <section>
+        <div class="shadow">
+                <div class="layer">
+                    <a href="/main.html"><p class="location">서울특별시</p></a>
+                    <p class="angle">></p>
+                    <a href="./nowon.html"><p class="location pointblue">노원구</p></a><!--수정-->
+                </div>
+            <div class="map">
+                <img class="seoul" src="/image/Seoulmap.png" alt="SeoulMap">
+                <div class="southpins"> <!--서울 남부-->
+                    <!--기존 sel 지우고 선택된 구에 sel 클래스 추가-->
+                    <a href="../south/songpa.html" title="송파구"><img class="pin songpa" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangdong.html" title="강동구"><img class="pin gangdong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangnam.html" title="강남구"><img class="pin gangnam" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/seocho.html" title="서초구"><img class="pin seocho" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/kwanak.html" title="관악구"><img class="pin kwanak" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/geumcheon.html" title="금천구"><img class="pin geumcheon" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/yangcheon.html" title="양천구"><img class="pin yangcheon" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangseo.html" title="강서구"><img class="pin gangseo" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/guro.html" title="구로구"><img class="pin guro" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/dongjak.html" title="동작구"><img class="pin dongjak" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/yeongdeungpo.html" title="영등포구"><img class="pin yeongdeungpo" src="../image/pingimg.png" alt="pin"></a>
+                </div>
+                <div class="northpins"> <!-- 서울 북부-->
+                    <a href="../north/gwangjin.html" title="광진구"><img class="pin gwangjin" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seongdong.html" title="성동구"><img class="pin seongdong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/yongsan.html" title="용산구"><img class="pin yongsan" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/mapo.html" title="마포구"><img class="pin mapo" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jungnang.html" title="중랑구"><img class="pin jungnang" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/dongdaemun.html" title="동대문구"><img class="pin dongdaemun" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jung.html" title="중구"><img class="pin jung" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seodaemun.html" title="서대문구"><img class="pin seodaemun" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seongbuk.html" title="성북구"><img class="pin seongbuk" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jongno.html" title="종로"><img class="pin jongno" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/eunpyeong.html" title="은평구"><img class="pin eunpyeong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/nowon.html" title="노원구"><img class="pin nowon sel" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/dobong.html" title="도봉구"><img class="pin dobong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/gangbuk.html" title="강북구"><img class="pin gangbuk" src="../image/pingimg.png" alt="pin"></a>
+                </div>
+                <p style="margin: 0px 50px 20px;">※지도의 핀을 클릭하면 해당 지역 설명이 보입니다.</p>
+            </div>
+        </div>
+        <article class="disc">
+                <p class="guname">노원구의 관광지</p><!--수정-->
+                <ul>
+                    <li class="tourname"><a class="customa" href="/north/place/buramsan.html" title="불암산 상세설명">불암산</a></li> <!--관광지 명, 상세설명 바로가기 수정-->
+                    <ul class="tourdisc">  <!--흰색 글씨 수정-->
+                        <!-- 간단한 설명(수정용) -->
+                        <li>서울특별시 노원구 상계동</li>
+                        <li>산의 모습이 송낙을 쓴 부처의 모습과 같다해서 불암산이라는 이름이 지어졌고 일명 천보산, 필암산이라고도 한다.</li>   
+                        <li>능선이 길게 뻗어 있어 시원한 경치를 맛볼 수 있고 산길도 험하지 않아 가볍게 오를 수 있는 곳이다.</li>
+                    
+                    </ul>
+                    <li class="tourname"><a class="customa" href="/north/place/yukgun.html" title="육군박물관 상세설명">육군박물관</a></li> <!--관광지 명 수정-->
+                    <ul class="tourdisc">
+                        <!-- 간단한 설명 (수정용) -->
+                        <li>서울특별시 노원구 화랑로 574</li>
+                        <li>육군박물관은 우리나라의 각종 군사유적과 유물을 중점적으로 다루는 박물관으로서 전통국방 문화유산에 대한 연구와 이해 및 국민교육에 일익을 담당하고자 1956년 육군사관학교 내에 건립되었습니다. </li>
+                        <li>우리나라에서 가장 오래된 군사전문박물관이며, 2008년부터는 선진 육군의 창(窓)이 되고자 국민에게 육사 전체를 개방하고 있습니다.</li>
+                        
+                    </ul>
+                </ul>
+                <p class="disctuto">※관광지 이름을 클릭하면 상세 설명을 보실 수 있습니다.</p>
+        </article>
+        
+    </section>
+    <footer>
+        <div class="footmsg">
+            <p class="footmsg">Copyright 2024. Dongyang Mirae All rights Reserved</p>
+            <p class="footmsg"><br>Main Developer : Cho Yesung</p>
+            <p class="footmsg">Main Support : Seok Jiwan</p>
+            <p class="footmsg">Research : Cho Yesung, Seok Jihwan, Kim Seongwon, Lee Seunghun, Moon Hwitae</p>
+            <p class="footmsg">Develop Period : 2024/05/18 ~ 2024/05/30</p>
+        </div>
+    </footer>
+</body>
+</html>

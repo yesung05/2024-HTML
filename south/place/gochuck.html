@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고척스카이돔</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/foot.css">
+        <link rel="stylesheet" href="/css/south.css">
+        <link rel="stylesheet" href="/css/north.css">
+        <link rel="stylesheet" href="/css/discription.css">
+</head>
+<body>
+    <nav class="navbar">
+        <header class="maintext">
+            <a href="/main.html"><h1 class="maintext" style="color: white;">서울의 관광지</h1></a>
+        </header>
+        <div class="searchbar">
+            <form id="searchForm" onsubmit="return navigateToFile()">
+                <input class="searchtext" type="search" id="searchInput" placeholder=" 구를 입력하세요 ex.구로구" required>
+                <button class="gobuttom" type="submit">
+                    <a href="#"><img class="searchimg" src="/image/search.png" alt="검색"></a>
+                </button>
+            </form>
+        </div>
+        <script src="scripts.js"></script>
+        </form>
+    </nav>
+    
+    <section>
+        <div class="shadow fleft">
+            <div class="layer">
+                <a href="/main.html"><p class="location">서울특별시</p></a>
+                <p class="angle">></p>
+                <a href="../guro.html"><p class="location">구로구</p></a>
+                <p class="angle">></p>
+                <p class="location pointblue">고척스카이돔</p>
+            </div>
+            <br>
+            <article class="locationdisc"> 
+                <a class="acolor" href="https://www.sisul.or.kr/open_content/skydome/" title="홈페이지 바로가기" target="_blank"><p class="placename">고척스카이돔</p></a>
+                <ul>
+                    <li>서울 구로구 경인로 430</li>
+                    <li>대한민국 유일 돔 형태의 야구장이다.</li>
+                    <li>야구 팀 '키움 히어로즈'의 홈 구장이다.</li>
+                    <li><a class="acolor" href="image/gochuckprice.jpg" onclick="window.open(this.href, '_blank', 'width=700, height=700'); return false;">입장료 상세보기(클릭)</a></li>
+                    <li>수영장, 헬스장 등 여러 근린생활시설이 포함되어 있다.</li>
+                    <li>연면적은 약 83,579㎡ 이며, 16,670석의 좌석수를 가지고 있다.</li>
+                    <li>돔 형태의 경기장이기 때문에, 야구 경기 이외에도 여러 공연을 진행하기도 한다.</li>
+                </ul>
+
+                <br>
+                <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.4127587301177!2d126.8644332756578!3d37.498181972056535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9d6549604903%3A0xc28629c08ed0fc25!2z6rOg7LKZ7Iqk7Lm07J2064-U!5e0!3m2!1sko!2skr!4v1716559195449!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- 지도-->
+
+            </article>
+        </div>
+        <div class="img">
+            <img class="discimg shadow" src="/south/place/image/gochuck1.jpg" alt="img1"> <!--16:9 이미지-->
+            <img class="discimg shadow" src="/south/place/image/gochuck2.jpg " alt="img2">
+        </div>
+    </section>
+    <footer>
+        <div class="footmsg">
+            <p class="footmsg">Copyright 2024. Dongyang Mirae All rights Reserved</p>
+            <p class="footmsg"><br>Main Developer : Cho Yesung</p>
+            <p class="footmsg">Main Support : Seok Jiwan</p>
+            <p class="footmsg">Research : Cho Yesung, Seok Jihwan, Kim Seongwon, Lee Seunghun, Moon Hwitae</p>
+            <p class="footmsg">Develop Period : 2024/05/18 ~ 2024/05/30</p>
+        </div>
+    </footer>
+</body>
+</html>

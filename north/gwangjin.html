@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서울의 관광지</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/foot.css">
+        <link rel="stylesheet" href="/css/south.css">
+        <link rel="stylesheet" href="/css/north.css">
+        <link rel="stylesheet" href="/css/summary.css">
+</head>
+<body>
+    <nav class="navbar">
+        <header class="maintext">
+            <a href="/main.html"><h1 class="maintext" style="color: white;">서울의 관광지</h1></a>
+        </header>
+        <div class="searchbar">
+            <form id="searchForm" onsubmit="return navigateToFile()">
+                <input class="searchtext" type="search" id="searchInput" placeholder=" 구를 입력하세요 ex.구로구" required>
+                <button class="gobuttom" type="submit">
+                    <a href=""><img class="searchimg" src="/image/search.png" alt="검색"></a>
+                </button>
+            </form>
+        </div>
+        <script src="scripts.js"></script>
+    </nav>
+    
+    <section>
+        <div class="shadow">
+                <div class="layer">
+                    <a href="/main.html"><p class="location">서울특별시</p></a>
+                    <p class="angle">></p>
+                    <a href="./gwangjin.html"><p class="location pointblue">광진구</p></a>
+                </div>
+            <div class="map">
+                <img class="seoul" src="/image/Seoulmap.png" alt="SeoulMap">
+                <div class="southpins"> <!--서울 남부-->
+                    <a href="../south/songpa.html" title="송파구"><img class="pin songpa" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangdong.html" title="강동구"><img class="pin gangdong " src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangnam.html" title="강남구"><img class="pin gangnam" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/seocho.html" title="서초구"><img class="pin seocho" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/kwanak.html" title="관악구"><img class="pin kwanak" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/geumcheon.html" title="금천구"><img class="pin geumcheon" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/yangcheon.html" title="양천구"><img class="pin yangcheon" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangseo.html" title="강서구"><img class="pin gangseo" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/guro.html" title="구로구"><img class="pin guro" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/dongjak.html" title="동작구"><img class="pin dongjak" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/yeongdeungpo.html" title="영등포구"><img class="pin yeongdeungpo" src="../image/pingimg.png" alt="pin"></a>
+                </div>
+                <div class="northpins"> <!-- 서울 북부-->
+                    <a href="../north/gwangjin.html" title="광진구"><img class="pin gwangjin sel" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seongdong.html" title="성동구"><img class="pin seongdong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/yongsan.html" title="용산구"><img class="pin yongsan" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/mapo.html" title="마포구"><img class="pin mapo" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jungnang.html" title="중랑구"><img class="pin jungnang" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/dongdaemun.html" title="동대문구"><img class="pin dongdaemun" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jung.html" title="중구"><img class="pin jung" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seodaemun.html" title="서대문구"><img class="pin seodaemun" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seongbuk.html" title="성북구"><img class="pin seongbuk" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jongno.html" title="종로"><img class="pin jongno" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/eunpyeong.html" title="은평구"><img class="pin eunpyeong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/nowon.html" title="노원구"><img class="pin nowon" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/dobong.html" title="도봉구"><img class="pin dobong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/gangbuk.html" title="강북구"><img class="pin gangbuk" src="../image/pingimg.png" alt="pin"></a>
+                </div>
+                <p style="margin: 0px 50px 20px;">※지도의 핀을 클릭하면 해당 지역 설명이 보입니다.</p>
+            </div>
+        </div>
+        <article class="disc">
+                <p class="guname">광진구의 관광지</p>
+                <ul>
+                    <li class="tourname"><a class="customa" href="/north/place/eorinidaegongwon.html" title="서울 어린이 대공원 상세설명">서울 어린이 대공원</a></li> <!--관광지 명, 상세설명 바로가기-->
+                    <ul class="tourdisc">
+                        <!-- 간단한 설명(수정용) -->
+                        <li>서울특별시 광진구 능동로 216</li>
+                        <li>넓은 공간 속 동물원, 식물원, 놀이동산 및 다양한 공연시설과 체험공간이 가득한 어린이 가족테마공원이다.</li>
+                        <li>놀이동산은 입장료가 있다.</li>
+                        <li>어린 아이들과 가기 좋다.</li>
+                    </ul>
+                    <li class="tourname"><a class="customa" href="/north/place/ttoksom.html" title="뚝섬 한강공원 상세설명">뚝섬 한강공원</a></li> <!--관광지 명-->
+                    <ul class="tourdisc">
+                        <!-- 간단한 설명 (수정용) -->
+                        <li>서울특별시 광진구 강변북로 139</li>
+                        <li>윈드서핑, 수상스키, 모터보트 등 수상스포츠가 활발하게 이루어지고 있다.</li>
+                        <li>한강공원이 조성되기 이전부터 강변유원지로 유명했던 곳이다.</li>
+                        <li>여러 축제및 행사가 열린다.</li>
+                    </ul>
+                </ul>
+                <p class="disctuto">※관광지 이름을 클릭하면 상세 설명을 보실 수 있습니다.</p>
+        </article>
+        
+    </section>
+    <footer>
+        <div class="footmsg">
+            <p class="footmsg">Copyright 2024. Dongyang Mirae All rights Reserved</p>
+            <p class="footmsg"><br>Main Developer : Cho Yesung</p>
+            <p class="footmsg">Main Support : Seok Jiwan</p>
+            <p class="footmsg">Research : Cho Yesung, Seok Jihwan, Kim Seongwon, Lee Seunghun, Moon Hwitae</p>
+            <p class="footmsg">Develop Period : 2024/05/18 ~ 2024/05/30</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서울 식물원</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/foot.css">
+        <link rel="stylesheet" href="/css/south.css">
+        <link rel="stylesheet" href="/css/north.css">
+        <link rel="stylesheet" href="/css/discription.css">
+</head>
+<body>
+    <nav class="navbar">
+        <header class="maintext">
+            <a href="/main.html"><h1 class="maintext" style="color: white;">서울의 관광지</h1></a>
+        </header>
+        <div class="searchbar">
+            <form id="searchForm" onsubmit="return navigateToFile()">
+                <input class="searchtext" type="search" id="searchInput" placeholder=" 구를 입력하세요 ex.구로구" required>
+                <button class="gobuttom" type="submit">
+                    <a href="#"><img class="searchimg" src="/image/search.png" alt="검색"></a>
+                </button>
+            </form>
+        </div>
+        <script src="scripts.js"></script>
+        </form>
+    </nav>
+    
+    <section>
+        <div class="shadow fleft">
+            <div class="layer">
+                <a href="/main.html"><p class="location">서울특별시</p></a>
+                <p class="angle">></p>
+                <a href="../gangseo.html"><p class="location">강서구</p></a>
+                <p class="angle">></p>
+                <p class="location pointblue">서울 식물원</p>
+            </div>
+            <br>
+            <article class="locationdisc"> 
+                <a class="acolor" href="https://botanicpark.seoul.go.kr/front/main.do#" title="홈페이지 바로가기" target="_blank"><p class="placename">서울 식물원</p></a>
+                <ul>
+                    <li>서울 강서구 마곡동로 161</li>
+                    <li>5분당 100원 , 1시간당 1,200원 저공해차 할인 50% 포함이기에 부담없이 이용가능하다.</li>
+                    <li>주제원 실내 온실 운영 시간: 3월 - 10월 09:30 ~ 18:00</li>
+                    <li>매주 월요일은 휴관일이며, 매표 마감은 17:00이다.</li>
+                    <li>열린숲, 호수원, 습지원 등 공원은 연중 무휴로 운영중이다.</li>
+                    <li>주제원 주변으로 넓고 걷기 좋은 공원이 조성되어 있어 시민들의 쉼터가 되어주고 있다.</li>
+                </ul>
+
+                <br>
+                <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6324.990190451897!2d126.82756699395387!3d37.566957838153414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9d01503c1eeb%3A0x947516d30347709a!2z7ISc7Jq47Iud66y87JuQ!5e0!3m2!1sko!2skr!4v1716556051440!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- 지도-->
+
+            </article>
+        </div>
+        <div class="img">
+            <img class="discimg shadow" src="/south/place/image/seoulgarden1.jpg" alt="img1"> <!--16:9 이미지-->
+            <img class="discimg shadow" src="/south/place/image/seoulgarden2.jpg " alt="img2">
+        </div>
+    </section>
+    <footer>
+        <div class="footmsg">
+            <p class="footmsg">Copyright 2024. Dongyang Mirae All rights Reserved</p>
+            <p class="footmsg"><br>Main Developer : Cho Yesung</p>
+            <p class="footmsg">Main Support : Seok Jiwan</p>
+            <p class="footmsg">Research : Cho Yesung, Seok Jihwan, Kim Seongwon, Lee Seunghun, Moon Hwitae</p>
+            <p class="footmsg">Develop Period : 2024/05/18 ~ 2024/05/30</p>
+        </div>
+    </footer>
+</body>
+</html>

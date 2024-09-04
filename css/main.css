@@ -1,0 +1,169 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    font-family: "Noto Sans KR", "맑은 고딕", "굴림";
+}
+/* 모든 페이지 폰트 지정*/
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+/* 바디 안 틀 지정 */
+.shadow{
+    margin: 30px 0px 30px 30px;
+    display: inline-block;
+    box-shadow: 1px 1px 10px 1px #555555;
+    border-radius: 10px;
+}
+/* 일관된 그림자를 위해 클래스 지정 후 사용 */
+section{
+    display: inline-block;
+    position: relative;
+}
+/* 본문 내용 틀*/
+.maintext{
+    padding-left: 5px;
+    margin: 5px 0px;
+    text-decoration: none;
+    float: left;
+}
+/* 메인으로 돌아올수 있는 Text 정렬 */
+.topnav{
+    text-decoration: none; 
+    /* 서울의 관광지 글자의 밑줄 삭제 */
+}
+a{
+    text-decoration: none;
+    /* 모든 a태그의 밑줄 삭제 */
+}
+/* .navbar_menu {
+    list-style: none;
+    display: flex;
+    color: var(--icons-color);
+    margin: 0px 60px;
+    padding-left: 0px;
+}
+.navbar_menu li {
+    padding: 8px 2%;
+    margin: 0px;
+    
+} */
+/* 세부 메뉴 추가하려다 포기, 혹시 몰라 남겨둠 */
+.navbar{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 900;
+}
+/* 상단 내비게이션 바 설정 */
+.seoul{ 
+    height: 600px;
+    margin: 10px 10px;
+    z-index: 1;
+}
+/* 서울 지도 설정 */
+.pin{
+    display: inline-block;
+    filter: grayscale(100%);
+    height: 40px;
+    position: absolute;
+    z-index: 10;   
+}
+/* 핀 회색조, 위치등 설정 */
+.pin:hover{
+    filter: grayscale(0%);
+}
+/* 호버시 회색조 제거, 우선순위 위하여 아래 배치 */
+.map{
+    margin: 0px 20px 20px 20px;
+    display: inline-block;
+    position: relative;
+
+}
+/* 지도와 핀등을 묶어 지도 위치 변경시에도 핀 유지되도록 div */
+footer{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    clear: both;
+}
+/* footer 속성 */
+.footmsg{
+    padding-left: 12px;
+    align-items: center;
+    margin: 0px;
+}
+/* footer에 들어가는 메시지의 속성 */
+.layer{
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    height: 50px;
+} 
+/* 현재 위치가 어디인지 보여줄 수 있는 표시기 위치 지정 */
+.location{
+    padding-left: 10px;
+    color: rgb(129,129,129);
+    display: inline;
+    font-size: 25px;
+
+}
+/* 위치 텍스트 */
+.angle{
+    padding-left: 10px;
+    color: rgb(129, 129, 129);
+    font-weight: bolder;
+    display: inline;
+    font-family: "굴림", "나눔 고딕";
+    font-weight: bolder;
+}
+/* 꺽쇠 따로 지정 > */
+.pointblue{    
+    padding-left: 10px;
+    color: rgb(23, 76, 250);
+    font-weight: bolder;
+}
+/* 현제 탭을 볼드와 파란색 적용 */
+.sel{
+    filter: grayscale(0%);
+}
+.searchbar{
+    display: flex;
+    position: relative;
+    left: 100px;
+    top: 19px;
+    width: 400px;
+}
+.searchtext{
+    float: left;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 0;
+}
+.gobuttom{
+    float: left;
+    position: relative;
+    top: -2px;
+    height: 33px;
+    width: 33px;
+    border-radius: 30px;
+    border: 0;
+    background-color: transparent;
+}
+.searchimg{
+    width: 30px;
+    height: 30px;
+}

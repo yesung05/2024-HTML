@@ -1,0 +1,29 @@
+@charset "utf-8";
+.disc{
+    display: inline-block;
+    top: 100px;
+    left: 950px;
+    position: absolute;
+}
+.guname{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.tourname{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    list-style-type: none;
+}
+.customa{
+    color: black;
+}
+.tourdisc{
+    margin: 10px;
+    word-wrap: break-word;
+}
+.disctuto{
+    position: relative;
+    top: 100px;
+}

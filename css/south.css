@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* 서울 남구 핀 위치 지정 */
+.songpa {
+    top: 415px;
+    left: 612px;
+}
+.gangdong {
+    top: 340px;
+    left: 650px;
+}
+.gangnam {
+    top: 420px;
+    left: 500px;
+}
+.seocho {
+    top: 435px;
+    left: 430px;
+}
+.kwanak {
+    top: 470px;
+    left: 330px;
+}
+.geumcheon {
+    top: 485px;
+    left: 250px;
+}
+.guro {
+    top: 405px;
+    left: 147px;
+}
+.yangcheon {
+    top: 360px;
+    left: 160px;
+}
+.gangseo {
+    top: 260px;
+    left: 150px;
+}
+.dongjak {
+    top: 405px;
+    left: 340px;
+}
+.yeongdeungpo {
+    top: 370px;
+    left: 265px;
+}

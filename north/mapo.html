@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--흰색 글씨 수정-->
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서울의 관광지</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/foot.css">
+        <link rel="stylesheet" href="/css/south.css">
+        <link rel="stylesheet" href="/css/north.css">
+        <link rel="stylesheet" href="/css/summary.css">
+</head>
+<body>
+    <nav class="navbar">
+        <header class="maintext">
+            <a href="/main.html"><h1 class="maintext" style="color: white;">서울의 관광지</h1></a>
+        </header>
+        <div class="searchbar">
+            <form id="searchForm" onsubmit="return navigateToFile()">
+                <input class="searchtext" type="search" id="searchInput" placeholder=" 구를 입력하세요 ex.구로구" required>
+                <button class="gobuttom" type="submit">
+                    <a href=""><img class="searchimg" src="/image/search.png" alt="검색"></a>
+                </button>
+            </form>
+        </div>
+        <script src="scripts.js"></script>
+        </form>
+    </nav>
+    
+    <section>
+        <div class="shadow">
+                <div class="layer">
+                    <a href="/main.html"><p class="location">서울특별시</p></a>
+                    <p class="angle">></p>
+                    <a href="./mapo.html"><p class="location pointblue">마포구</p></a><!--수정-->
+                </div>
+            <div class="map">
+                <img class="seoul" src="/image/Seoulmap.png" alt="SeoulMap">
+                <div class="southpins"> <!--서울 남부-->
+                    <!--기존 sel 지우고 선택된 구에 sel 클래스 추가-->
+                    <a href="../south/songpa.html" title="송파구"><img class="pin songpa" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangdong.html" title="강동구"><img class="pin gangdong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangnam.html" title="강남구"><img class="pin gangnam" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/seocho.html" title="서초구"><img class="pin seocho" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/kwanak.html" title="관악구"><img class="pin kwanak" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/geumcheon.html" title="금천구"><img class="pin geumcheon" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/yangcheon.html" title="양천구"><img class="pin yangcheon" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/gangseo.html" title="강서구"><img class="pin gangseo" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/guro.html" title="구로구"><img class="pin guro" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/dongjak.html" title="동작구"><img class="pin dongjak" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../south/yeongdeungpo.html" title="영등포구"><img class="pin yeongdeungpo" src="../image/pingimg.png" alt="pin"></a>
+                </div>
+                <div class="northpins"> <!-- 서울 북부-->
+                    <a href="../north/gwangjin.html" title="광진구"><img class="pin gwangjin" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seongdong.html" title="성동구"><img class="pin seongdong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/yongsan.html" title="용산구"><img class="pin yongsan" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/mapo.html" title="마포구"><img class="pin mapo sel" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jungnang.html" title="중랑구"><img class="pin jungnang" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/dongdaemun.html" title="동대문구"><img class="pin dongdaemun" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jung.html" title="중구"><img class="pin jung" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seodaemun.html" title="서대문구"><img class="pin seodaemun" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/seongbuk.html" title="성북구"><img class="pin seongbuk" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/jongno.html" title="종로"><img class="pin jongno" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/eunpyeong.html" title="은평구"><img class="pin eunpyeong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/nowon.html" title="노원구"><img class="pin nowon" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/dobong.html" title="도봉구"><img class="pin dobong" src="../image/pingimg.png" alt="pin"></a>
+                    <a href="../north/gangbuk.html" title="강북구"><img class="pin gangbuk" src="../image/pingimg.png" alt="pin"></a>
+                </div>
+                <p style="margin: 0px 50px 20px;">※지도의 핀을 클릭하면 해당 지역 설명이 보입니다.</p>
+            </div>
+        </div>
+        <article class="disc">
+                <p class="guname">마포구의 관광지</p><!--수정-->
+                <ul>
+                    <li class="tourname"><a class="customa" href="/north/place/yunnamtri.html" title="연남동 세모길 상세설명">연남동 세모길</a></li> <!--관광지 명, 상세설명 바로가기 수정-->
+                    <ul class="tourdisc">  <!--흰색 글씨 수정-->
+                        <!-- 간단한 설명(수정용) -->
+                        <li>서울특별시 마포구 동교로51안길1</li>
+                        <li>연남동 세모길은 경의선숲길공원 연남 구간의 끝자락과 가좌역이 있는 경의중앙선 철도가 만나는 삼각형 지대다.</li>   
+                        <li>골목길 재생사업으로 선정되기 이전에도 가죽공방, 와인숍, 테일러 숍 등 개성 있는 가게와 스튜디오들이 작은 골목길에 속속 들어오며 활기를 띄기 시작했다.</li>
+                    
+                    </ul>
+                    <li class="tourname"><a class="customa" href="/north/place/yunnam.html" title="연남동 동진시장 상세설명">연남동 동진시장</a></li> <!--관광지 명 수정-->
+                    <ul class="tourdisc">
+                        <!-- 간단한 설명 (수정용) -->
+                        <li>서울특별시 마포구 성미산로 198</li>
+                        <li>서울 마포구 연남동에 위치한 동진시장은 연남동의 유일한 재래시장이다. 평일에는 일반 시장과 다를바가 없지만 금요일마다 야시장을 운영하며, 토요일 마다 7일장을, 일요일엔 일요시장을 운영한다. </li>
+                        <li>주말엔 폴리마켓 형태로 수공예 제품 및 도시 농부들이 재배한 농작물 등 도심에서 제조하는 물품들과 다양한 먹거리를 판매하며, 요리 워크샵 및 다양한 행사들을 함께 진행한다.                        </li>
+                        
+                    </ul>
+                </ul>
+                <p class="disctuto">※관광지 이름을 클릭하면 상세 설명을 보실 수 있습니다.</p>
+        </article>
+        
+    </section>
+    <footer>
+        <div class="footmsg">
+            <p class="footmsg">Copyright 2024. Dongyang Mirae All rights Reserved</p>
+            <p class="footmsg"><br>Main Developer : Cho Yesung</p>
+            <p class="footmsg">Main Support : Seok Jiwan</p>
+            <p class="footmsg">Research : Cho Yesung, Seok Jihwan, Kim Seongwon, Lee Seunghun, Moon Hwitae</p>
+            <p class="footmsg">Develop Period : 2024/05/18 ~ 2024/05/30</p>
+        </div>
+    </footer>
+</body>
+</html>

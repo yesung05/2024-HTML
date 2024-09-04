@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* 서울 북구 핀 위치 조정 */
+.gwangjin {
+    top: 330px;
+    left: 565px;
+}
+.seongdong {
+    top: 310px;
+    left: 494px;
+}
+.yongsan {
+    top: 340px;
+    left: 390px;
+}
+.mapo {
+    top: 290px;
+    left: 280px;
+}
+.jungnang {
+    top: 240px;
+    left: 580px;
+}
+.dongdaemun {
+    top: 250px;
+    left: 534px;
+}
+.jung {
+    top: 293px;
+    left: 433px;
+}
+.seodaemun {
+    top: 250px;
+    left: 333px;
+}
+.seongbuk {
+    top: 212px;
+    left: 466px;
+}
+.jongno {
+    top: 233px;
+    left: 390px;
+}
+.eunpyeong {
+    top: 155px;
+    left: 325px;
+}
+.nowon {
+    top: 116px;
+    left: 566px;
+}
+.dobong {
+    top: 88px;
+    left: 502px;
+}
+.gangbuk {
+    top: 123px;
+    left: 454px;
+}

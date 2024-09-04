@@ -1,0 +1,128 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: inline-block;
+    position: relative;
+}
+.maintext{
+    padding-left: 0px;
+    margin: 5px 0px;
+    text-decoration: none;
+    display: inline-block;
+}
+.topnav{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+/* .navbar_menu {
+    list-style: none;
+    display: flex;
+    color: var(--icons-color);
+    margin: 0px 60px;
+    padding-left: 0px;
+}
+.navbar_menu li {
+    padding: 8px 2%;
+    margin: 0px;
+    
+} */
+.navbar{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    padding: 8px 12px;
+    font-family: "Noto Sans KR", "맑은 고딕";
+    font-size: 20px;
+    font-weight: 900;
+}
+.seoul{ 
+    height: 600px;
+    margin: 10px 10px;
+    z-index: 1;
+}
+.pin{
+    display: inline-block;
+    filter: grayscale(100%);
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+}
+.pin:hover{
+    filter: grayscale(0%);
+}
+.map{
+    margin: 0px 20px 20px 20px;
+    display: inline-block;
+    position: relative;
+
+}
+
+footer{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+}
+.footmsg{
+    padding-left: 12px;
+    align-items: center;
+    margin: 0px;
+}
+.layer{
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    height: 50px;
+} 
+.location{
+    padding-left: 10px;
+    color: rgb(129,129,129);
+    display: inline;
+    font-family: "Noto Sans KR", "나눔 고딕";
+    font-size: 25px;
+
+}
+.angle{
+    padding-left: 10px;
+    color: rgb(129, 129, 129);
+    font-weight: bolder;
+    display: inline;
+    font-family: "굴림", "나눔 고딕";
+    font-weight: bolder;
+
+}
+.pointblue{    
+    padding-left: 10px;
+    color: rgb(23, 76, 250);
+    font-weight: bolder;
+}
+.disc{
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    left: 900px;
+}
+.sel{
+    filter: grayscale(0%);
+}
+
+.shadow{
+    margin: 30px 0px 30px 30px;
+    display: inline-block;
+    box-shadow: 1px 1px 10px 1px #555555;
+    border-radius: 10px;
+}

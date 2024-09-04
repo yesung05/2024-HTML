@@ -1,0 +1,57 @@
+@charset "utf-8";
+.locationdisc{
+    display: inline-block;
+    margin: 10px 10px 10px 50px;
+    position: relative;
+    width: 920px;
+}
+/* 본문 크기 지정 */
+.fleft{
+    float:left;
+    width: 980px;
+}
+/* 정렬 방식, 그림자 틀 크기 지정 */
+.img{
+    float: left;
+    top: 30px;
+    position: absolute;
+    left: 1010px;
+    width: auto;
+    max-width: 890px;
+    max-height: 890px;
+}
+/* 사진 구역 지정 */
+.discimg{
+    float:left;
+    width: auto;
+    height: auto;
+    max-width: 890px;
+    max-height: 268px;
+    margin: 0px 0px 20px 30px;
+    border-radius: 15px;
+}
+/* 각 사진 크기 지정 */
+.gmap{
+    position: relative;
+    left: -35px;
+    border-radius: 10px;
+    clear: both;
+    width : 950px;
+    height : 450px;
+}
+/* 지도 크기 위치등 지정 */
+.placename{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+/* h1태그 대신에 볼드 등 지정 */
+.acolor{
+    color: var(--icons-color);
+    display: inline-block;
+}
+/* a태그 지정된 택스트 색 변환 없게 */
+.acolor:hover{
+    color: rgb(0, 79, 226); 
+}
+/* a태그 적용된 것 표시용 */

@@ -1,0 +1,161 @@
+@charset "utf-8";
+body{
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.maintext{
+    padding-left: 0px;
+    margin: 0px;
+    text-decoration: none;
+    display: inline-block;
+}
+.topnav{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    color: var(--icons-color);
+    margin: 0px 60px;
+    padding-left: 0px;
+}
+.navbar_menu li {
+    padding: 8px 2%;
+    margin: 0px;
+    
+}
+.navbar{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    padding: 8px 12px;
+}
+.seoul{
+    height: 600px;
+    margin: 10px 10px;
+    z-index: 1;
+}
+.pin{
+    display: inline-block;
+    filter: grayscale(100%);
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+}
+.pin:hover{
+    filter: grayscale(0%);
+}
+.map{
+    display: inline-block;
+    position: relative;
+}
+
+/* South of the Han River (강남) */
+.songpa {
+    top: 420px;
+    left: 590px;
+}
+.gangdong {
+    top: 340px;
+    left: 650px;
+}
+.gangnam {
+    top: 420px;
+    left: 500px;
+}
+.seocho {
+    top: 460px;
+    left: 430px;
+}
+.kwanak {
+    top: 470px;
+    left: 330px;
+}
+.geumcheon {
+    top: 500px;
+    left: 250px;
+}
+.guro {
+    top: 420px;
+    left: 150px;
+}
+.yangcheon {
+    top: 350px;
+    left: 210px;
+}
+.gangseo {
+    top: 260px;
+    left: 150px;
+}
+.dongjak {
+    top: 405px;
+    left: 340px;
+}
+.yeongdeungpo {
+    top: 385px;
+    left: 265px;
+}
+
+/* North of the Han River (강북) */
+.gwangjin {
+    top: 340px;
+    left: 565px;
+}
+.seongdong {
+    top: 320px;
+    left: 487px;
+}
+.yongsan {
+    top: 340px;
+    left: 390px;
+}
+.mapo {
+    top: 290px;
+    left: 280px;
+}
+.jungnang {
+    top: 240px;
+    left: 580px;
+}
+.dongdaemun {
+    top: 260px;
+    left: 520px;
+}
+.jung {
+    top: 290px;
+    left: 430px;
+}
+.seodaemun {
+    top: 250px;
+    left: 330px;
+}
+.seongbuk {
+    top: 220px;
+    left: 465px;
+}
+.jongno {
+    top: 240px;
+    left: 390px;
+}
+.eunpyeong {
+    top: 155px;
+    left: 325px;
+}
+.nowon {
+    top: 120px;
+    left: 565px;
+}
+.dobong {
+    top: 90px;
+    left: 500px;
+}
+.gangbuk {
+    top: 120px;
+    left: 445px;
+}

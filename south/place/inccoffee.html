@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인크커피</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/foot.css">
+        <link rel="stylesheet" href="/css/south.css">
+        <link rel="stylesheet" href="/css/north.css">
+        <link rel="stylesheet" href="/css/discription.css">
+</head>
+<body>
+    <nav class="navbar">
+        <header class="maintext">
+            <a href="/main.html"><h1 class="maintext" style="color: white;">서울의 관광지</h1></a>
+        </header>
+        <div class="searchbar">
+            <form id="searchForm" onsubmit="return navigateToFile()">
+                <input class="searchtext" type="search" id="searchInput" placeholder=" 구를 입력하세요 ex.구로구" required>
+                <button class="gobuttom" type="submit">
+                    <a href="#"><img class="searchimg" src="/image/search.png" alt="검색"></a>
+                </button>
+            </form>
+        </div>
+        <script src="scripts.js"></script>
+        </form>
+    </nav>
+    
+    <section>
+        <div class="shadow fleft">
+            <div class="layer">
+                <a href="/main.html"><p class="location">서울특별시</p></a>
+                <p class="angle">></p>
+                <a href="../geumcheon.html"><p class="location">금천구</p></a>
+                <p class="angle">></p>
+                <p class="location pointblue">인크커피</p>
+            </div>
+            <br>
+            <article class="locationdisc"> 
+                <a class="acolor" href="https://www.instagram.com/inccoffee__" title="홈페이지 바로가기" target="_blank"><p class="placename">인크커피</p></a>
+                <ul>
+                    <li>서울 금천구 가산디지털2로 127-20</li>
+                    <li>02-854-7200</li>
+                    <li>영업 시간 : <br>평일 : 8:00 ~ 21:00<br>주말/공휴일 : 10:00 ~ 21:00</li>
+                    <li>지하 1층부터 3층까지 총 3개의 층으로 이루어져 있는 대형 카페이다.</li>
+                    <li>커피를 직접 로스팅하는 카페이기에, 로스팅실을 구경 할 수 있다.</li>
+                    <li>건물 주차공간이 매우 협소하여, 외부에 있는 주차장을 이용하는것을 추천한다.</li>
+                </ul>
+
+                <br>
+                <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.2128141517246!2d126.87535187565686!3d37.47930407206136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b61030a228943%3A0x4d9629fd87806d47!2z7J247YGs7Luk7ZS8IOqwgOyCsOygkA!5e0!3m2!1sko!2skr!4v1716559908785!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- 지도-->
+
+            </article>
+        </div>
+        <div class="img">
+            <img class="discimg shadow" src="/south/place/image/inc1.jpg" alt="img1"> <!--16:9 이미지-->
+            <img class="discimg shadow" src="/south/place/image/inc2.jpg " alt="img2">
+        </div>
+    </section>
+    <footer>
+        <div class="footmsg">
+            <p class="footmsg">Copyright 2024. Dongyang Mirae All rights Reserved</p>
+            <p class="footmsg"><br>Main Developer : Cho Yesung</p>
+            <p class="footmsg">Main Support : Seok Jiwan</p>
+            <p class="footmsg">Research : Cho Yesung, Seok Jihwan, Kim Seongwon, Lee Seunghun, Moon Hwitae</p>
+            <p class="footmsg">Develop Period : 2024/05/18 ~ 2024/05/30</p>
+        </div>
+    </footer>
+</body>
+</html>
